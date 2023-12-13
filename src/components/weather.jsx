@@ -80,7 +80,7 @@ const Weather = () => {
 
 
 
-    
+    // function for getting current location temperature
 
         const current_weather =  async () =>{ 
           const element = document.getElementsByClassName('cityInput');
@@ -99,7 +99,7 @@ const Weather = () => {
 
 
     
-
+// complete search functionality starts here
     const search = async ()=>{
         const element = document.getElementsByClassName('cityInput');
 
@@ -360,7 +360,7 @@ const Weather = () => {
 
 
 
-// tried to implement save, switch, remove functionality in below function
+// tried to implement save, switch, remove functionality in below function but currently this functionality is not working
 
     const saved_locations_func = () =>{
 
@@ -494,6 +494,8 @@ const Weather = () => {
         </div>
         
       </div>
+
+      
 
       
       
